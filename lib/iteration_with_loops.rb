@@ -6,6 +6,7 @@ def find_even_values(src)
                 # inside this loop, src[row_index][element_index] will access the current element
       if src[row_index][element_index].even?
         p sec[row_index][element_index]
+      end
       element_index += 1
     end
     row_index += 1
